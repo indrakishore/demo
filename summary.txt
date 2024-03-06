@@ -36,3 +36,11 @@ Ternary operator for authentication:
 
 Use a ternary operator to determine the authentication status.
 Depending on the value of isAuthenticated, set the authenticationStatus as "Authenticated" or "Not authenticated."
+
+
+Closure and Hoisting
+Setting Up the Environment: HTML structure with a header displaying the account holder's name (Peter Parker) and a follower count displayed as "0" within a span element.
+
+Defining Variables and Functions: A button triggers the "increaseCount()" function, incrementing the follower count when clicked, updating the displayed count dynamically, and triggering alerts at 10 and 20 follower milestones.
+
+Displaying Incremental Result: JavaScript functions manage the count incrementation, display of follower count on the HTML page, and the conditional display of 
