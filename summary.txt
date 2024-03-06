@@ -19,3 +19,20 @@ Global variables were accessible everywhere in the script.
 Block-scoped variables (inside {}) had limited accessibility, resulting in ReferenceErrors when accessed outside their blocks.
 
 Function-scoped variables (inside a function) also led to ReferenceErrors when accessed outside the function.
+
+
+
+Using conditional statements and control flow, you can direct how a program behaves based on different situations or criteria, allowing for decision-making and defining specific pathways within the code.
+Variables declaration:
+
+Set up a HTML file linked to a JavaScript file in a folder named "controlFlow."
+Create variables for userRole, accessLevel, isLoggedIn, userMessage, userType, userCategory, isAuthenticated, and authenticationStatus.
+Implementing control flow:
+
+Use if…else statements to assign access levels based on user roles.
+Implement nested if…else statements to customize messages based on login status and user roles.
+Utilize a switch statement to categorize users based on their type.
+Ternary operator for authentication:
+
+Use a ternary operator to determine the authentication status.
+Depending on the value of isAuthenticated, set the authenticationStatus as "Authenticated" or "Not authenticated."
